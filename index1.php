@@ -1,0 +1,13 @@
+<?php
+$wildth=10;
+$heigt=5;
+$arr=[];
+for($i=0;$i<$heigt;$i++){
+	$line=[];
+	for($j=0;$j<$wildth;$j++){
+	$line[]=rand(0,100);
+	}
+	$arr[]=$line;
+}
+	var_dump($arr);
+?>
